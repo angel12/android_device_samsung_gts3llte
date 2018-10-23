@@ -1,4 +1,4 @@
-Device configuration for the Samsung Galaxy Tab S3 LTE
+Device configuration for the Samsung Galaxy Tab S3 WiFi
 
 Copyright (C) 2017 The LineageOS Project
 Copyright (C) 2018 Valera Chigir <valera1978@tut.by>
@@ -32,9 +32,9 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="angel12/android_device_samsung_gts3lwifi" path="device/samsung/gts3llte" remote="github" />
+  <project name="angel12/android_device_samsung_gts3lwifi" path="device/samsung/gts3lwifi" remote="github" />
   <project name="angel12/android_kernel_samsung_msm8996" path="kernel/samsung/msm8996" remote="github" />
-  <project name="angel12/android_vendor_samsung_gts3lwifi" path="vendor/samsung/gts3llte" remote="github" />
+  <project name="angel12/android_vendor_samsung_gts3lwifi" path="vendor/samsung/gts3lwifi" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
 </manifest>
