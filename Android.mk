@@ -21,7 +21,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gts3llte)
+ifeq ($(TARGET_DEVICE),gts3lwifi)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

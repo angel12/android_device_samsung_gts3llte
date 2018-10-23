@@ -13,7 +13,7 @@ Copyright (C) 2018 Valera Chigir <valera1978@tut.by>
 
 * Description
 
-  This repository is for LineageOS on Samsung Galaxy Tab S3 LTE (gts3llte)
+  This repository is for LineageOS on Samsung Galaxy Tab S3 LTE (gts3lwifi)
 
 * How To Build LineageOS for Samsung Galaxy Tab S3 LTE
 
@@ -58,4 +58,4 @@ repo sync
 
   - Build lineage 15.1
 
-brunch gts3llte
+brunch gts3lwifi

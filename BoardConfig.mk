@@ -15,12 +15,12 @@
 
 BOARD_VENDOR := samsung
 
-DEVICE_PATH := device/samsung/gts3llte
+DEVICE_PATH := device/samsung/gts3lwifi
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := gts3llte
+TARGET_OTA_ASSERT_DEVICE := gts3lwifi
 
 # Architecture
 TARGET_ARCH := arm64
@@ -52,7 +52,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/msm8996
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CONFIG := lineage_gts3llte_defconfig
+TARGET_KERNEL_CONFIG := lineage_gts3lwifi_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8996
@@ -221,4 +221,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 BOARD_HAVE_SAMSUNG_WIFI := true
 
 # inherit from the proprietary version
--include vendor/samsung/gts3llte/BoardConfigVendor.mk
+-include vendor/samsung/gts3lwifi/BoardConfigVendor.mk

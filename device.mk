@@ -16,9 +16,9 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/gts3llte/gts3llte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/gts3lwifi/gts3lwifi-vendor.mk)
 
-LOCAL_PATH := device/samsung/gts3llte
+LOCAL_PATH := device/samsung/gts3lwifi
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
