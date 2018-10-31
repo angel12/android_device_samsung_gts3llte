@@ -36,6 +36,7 @@ repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
   <project name="angel12/android_kernel_samsung_msm8996" path="kernel/samsung/msm8996" remote="github" />
   <project name="angel12/android_vendor_samsung_gts3lwifi" path="vendor/samsung/gts3lwifi" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-15.1"/>
 
 </manifest>
 ```
